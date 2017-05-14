@@ -6,7 +6,6 @@ MarkupSafe==0.23
 nltk==3.1
 numpy==1.10.4
 pandas==0.17.1
-path.py==0.0.0
 pickleshare==0.5
 py==1.4.31
 pywin32==219
