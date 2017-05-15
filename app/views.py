@@ -1,7 +1,13 @@
-from app import app
+#from app import app
+from flask import Flask
+from flask import request
+from flak import make_response 
 
+import urllib
+import json
+import os
 
-
+app = Flask (__name__)
 #@app.route('/')
 #@app.route('/index')
 @app.route('/webhook', methods = ['GET'])
