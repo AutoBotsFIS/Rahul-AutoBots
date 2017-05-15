@@ -5,10 +5,8 @@ from app import app
 #@app.route('/')
 #@app.route('/index')
 @app.route('/webhook')
-
 def webhook():
     req = request.get_json(silent=True, force=True)
-
     print("Request:")
     print(json.dumps(req, indent=4))
 
